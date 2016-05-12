@@ -1,0 +1,26 @@
+
+<h3>Test input</h3>
+
+<div><input type="text" ng-model="testTextModel"/><div>
+
+<h3> {{testTextModel}}</h3>
+
+<br>
+<h3>Prova di lista</h3>
+<div class="table-responsive">
+    <table class="table">
+      <tr>
+        <th>
+        mylabel1
+        </th>
+        <th>
+        mylabel2          
+        </th>
+      </tr>
+      <tr ng-repeat="elem in data">
+          <td>{{elem.text}}</td>
+          <td>{{elem.value}}</td>
+      </tr>
+    </table>
+</div>
+
